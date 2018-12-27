@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ChoregrapheProject xmlns="http://www.aldebaran-robotics.com/schema/choregraphe/project.xsd" xar_version="3">
+    <Box name="root" id="-1" tooltip="Root box of Choregraphe&apos;s project. Highest level possible." x="0" y="0">
+        <bitmap>media/images/box/root.png</bitmap>
+        <script language="4">
+            <content>
+                <![CDATA[]]>
+</content>
+        </script>
+        <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
+        <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
+        <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
+        <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" />
+        <Timeline enable="0">
+            <BehaviorLayer name="behavior_layer1">
+                <BehaviorKeyframe name="keyframe1" index="1">
+                    <Diagram>
+                        <Box name="FluentNao Script Box" id="1" tooltip="Enter tooltip here" x="193" y="86">
+                            <bitmap>media/images/box/box-diagram.png</bitmap>
+                            <script language="4">
+                                <content>
+                                    <![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self)
+
+    def onLoad(self):
+        #~ puts code for box initialization here
+        pass
+
+    def onUnload(self):
+        #~ puts code for box cleanup here
+        pass
+
+    def onInput_onStart(self):
+
+        # setup
+        self.initFluentNao()
+        
+        # events        
+        self.playingWithEvents()
+        
+        # inline script
+        #nao = self.nao
+        #nao.say('hi')
+        #nao.arms.forward()
+        #nao.go()
+        #nao.sit()
+        #nao.go()
+        #nao.arms.down()
+        #nao.relax()
+        #nao.leds.eyes(0xcc0000)
+        #nao.naoscript.get(1)
+
+       
+
+        self.onStopped() #~ activate output of the box
+        pass
+    
+    def onInput_onStop(self):
+        self.onUnload() #~ it is recommanded to call onUnload of this box in a onStop method, as the code written in onUnload is used to stop the box as well
+        pass
+        
+    def playingWithEvents(self):
+
+        # setup
+        from datetime import datetime, timedelta
+        import naoutil.memory as memory    
+        
+        # nao & names
+        nao = self.nao
+        self.names = {}    
+
+        # face tracker
+        self.env.add_proxy("ALFaceTracker")   
+        facetracker = nao.env.proxies["ALFaceTracker"] 
+        motion = nao.env.motion  
+            
+        ###################
+        # event
+        def fCallback(dataName, value, message):
+            #self.log(value)
+
+            # get name
+            name = value[1][1][1][0]
+            if len(name) > 0:            
+            
+                # new person?
+                if not name in self.names:
+                    self.names[name] = datetime.now()
+                    nao.wait(2)
+                    nao.naoscript.get(35)
+                    nao.go()
+                    nao.sit()
+                    
+                    # say hello
+                    nao.say('hello ' + name)
+                    
+                    # store in names w/ datetime
+                    self.log(self.names)
+                      
+                else:
+                    then = self.names[name]
+                    now = datetime.now()
+                    if now - then > timedelta(minutes=2):
+                        nao.say('hello again ' + name)    
+                    
+    
+        # subscribe
+        memory.subscribeToEvent('FaceDetected', fCallback)
+        
+        ###################        
+        # event
+        
+        def startCallback(dataName, value, message):
+            # bumper down
+            if value==1:
+                self.log("starting")
+                memory.subscribeToEvent('FaceDetected', fCallback)
+                facetracker.startTracker()    
+                motion.setStiffnesses("Head", 1.0)
+
+        def stopCallback(dataName, value, message):
+            # bumper down
+            if value==1:
+                self.log("stopping")
+                memory.unsubscribeToEvent('FaceDetected')                 
+                facetracker.stopTracker()    
+                motion.setStiffnesses("Head", 0)   
+
+        # subscribe
+        memory.subscribeToEvent('RightBumperPressed', stopCallback)
+        memory.subscribeToEvent('LeftBumperPressed', startCallback)
+
+        
+    def initFluentNao(self):
+        # import
+        try:
+            import naoutil.naoenv as naoenv
+            import fluentnao.nao as nao
+        except:
+            # add path
+            import sys
+            sys.path.append(os.path.join(ALFrameManager.getBehaviorPath(self.behaviorId), "src/main/python/"))
+ 
+            # reload (only happens once)
+            import naoutil.naoenv as naoenv
+            import fluentnao.nao as nao    
+            reload(naoenv)
+            reload(nao)
+        
+        # fluent nao
+        self.env = naoenv.make_environment(self)
+        self.nao = nao.Nao(self.env, self.log)
+        pass]]>
+</content>
+                            </script>
+                            <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
+                            <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
+                            <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
+                            <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" />
+                            <Parameter name="fluentnao" inherits_from_parent="0" content_type="3" value="/home/dnajd/development/personal/FluentNao/src/main/python/" default_value="/home/dnajd/development/personal/FluentNao" custom_choice="0" tooltip="" id="5" />
+                        </Box>
+                        <Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="2" />
+                    </Diagram>
+                </BehaviorKeyframe>
+            </BehaviorLayer>
+        </Timeline>
+    </Box>
+</ChoregrapheProject>

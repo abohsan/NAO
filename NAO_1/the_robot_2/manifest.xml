@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="the_robot_2-c7f8ac">
+ <names>
+  <name lang="en_US">the_robot_2</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="the_robot_2">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

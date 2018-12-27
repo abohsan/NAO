@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="demodtw_simple-7b9fe8">
+ <names>
+  <name lang="en_US">DemoDTW_simple</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="DemoDTW_simple">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

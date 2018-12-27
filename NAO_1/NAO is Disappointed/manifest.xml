@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="naoisdisappointed-1321cb">
+ <names>
+  <name lang="en_US">NAO is Disappointed</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="NAO is Disappointed">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

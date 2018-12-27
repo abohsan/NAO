@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="basicmove-603556">
+ <names>
+  <name lang="en_US">basic move</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="basic move">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

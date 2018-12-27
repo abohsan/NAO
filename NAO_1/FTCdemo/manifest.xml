@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="ftcdemo-d2d9f1">
+ <names>
+  <name lang="en_US">FTCdemo</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="FTCdemo">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

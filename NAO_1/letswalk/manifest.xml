@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="letswalk-3d55f7">
+ <names>
+  <name lang="en_US">letswalk</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="letswalk">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

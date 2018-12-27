@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="keytopandorabot-8dd061">
+ <names>
+  <name lang="en_US">KeyToPandoraBot</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="KeyToPandoraBot">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="fluentnao_dev-74845a">
+ <names>
+  <name lang="en_US">fluentnao_dev</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="fluentnao_dev">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

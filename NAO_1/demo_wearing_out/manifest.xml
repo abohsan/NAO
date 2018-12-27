@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="demo_wearing_out-cf4878">
+ <names>
+  <name lang="en_US">demo_wearing_out</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="demo_wearing_out">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

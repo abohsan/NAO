@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="sprinkler-077758">
+ <names>
+  <name lang="en_US">sprinkler</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="sprinkler">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="birthday_dance_no_sound-8f794a">
+ <names>
+  <name lang="en_US">birthday_dance_no_sound</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="birthday_dance_no_sound">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

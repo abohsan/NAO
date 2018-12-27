@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="box_library_example-1d4f57">
+ <names>
+  <name lang="en_US">box_library_example</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="box_library_example">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

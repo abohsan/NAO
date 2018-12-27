@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="blow_kisses-148323">
+ <names>
+  <name lang="en_US">blow_kisses</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="blow_kisses">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

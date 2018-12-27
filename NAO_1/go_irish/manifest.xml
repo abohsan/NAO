@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="go_irish-e304dc">
+ <names>
+  <name lang="en_US">go_irish</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="go_irish">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

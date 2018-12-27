@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="rock_on-e8b1a2">
+ <names>
+  <name lang="en_US">rock_on</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="rock_on">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="cisimalma-a033d8">
+ <names>
+  <name lang="en_US">Cisim alma</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="Cisim alma">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

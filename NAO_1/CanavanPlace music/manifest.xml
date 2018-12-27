@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="canavanplacemusic-984a82">
+ <names>
+  <name lang="en_US">CanavanPlace music</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="CanavanPlace music">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

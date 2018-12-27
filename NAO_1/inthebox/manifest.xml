@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="inthebox-ac3b16">
+ <names>
+  <name lang="en_US">inthebox</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="inthebox">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

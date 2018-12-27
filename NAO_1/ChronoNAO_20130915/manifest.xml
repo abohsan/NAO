@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="chrononao_20130915-87c6f8">
+ <names>
+  <name lang="en_US">ChronoNAO_20130915</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="ChronoNAO_20130915">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

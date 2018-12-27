@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="naodice-v4-47fecb">
+ <names>
+  <name lang="en_US">NaoDice-v4</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="NaoDice-v4.2">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

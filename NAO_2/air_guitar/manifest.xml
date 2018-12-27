@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="air_guitar-edc189">
+ <names>
+  <name lang="en_US">air_guitar</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="air_guitar">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

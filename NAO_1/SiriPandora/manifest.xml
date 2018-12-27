@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="siripandora-8b2cc0">
+ <names>
+  <name lang="en_US">SiriPandora</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="SiriPandora">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

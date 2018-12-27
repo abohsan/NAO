@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="randomcitation-60dc60">
+ <names>
+  <name lang="en_US">RandomCitation</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="RandomCitation">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

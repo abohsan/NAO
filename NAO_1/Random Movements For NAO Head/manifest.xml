@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="randommovementsfornaohead-25b021">
+ <names>
+  <name lang="en_US">Random Movements For NAO Head</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="Random Movements For NAO Head">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

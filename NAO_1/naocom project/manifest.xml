@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="naocomproject-88bc49">
+ <names>
+  <name lang="en_US">naocom project</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="naocom project">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

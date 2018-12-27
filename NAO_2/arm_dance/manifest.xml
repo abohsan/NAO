@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="arm_dance-4f57f8">
+ <names>
+  <name lang="en_US">arm_dance</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="arm_dance">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

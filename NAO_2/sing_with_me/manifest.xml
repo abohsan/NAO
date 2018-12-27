@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="sing_with_me-8e61fe">
+ <names>
+  <name lang="en_US">sing_with_me</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="sing_with_me">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

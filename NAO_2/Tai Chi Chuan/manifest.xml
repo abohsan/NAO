@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="taichichuan-926cdf">
+ <names>
+  <name lang="en_US">Tai Chi Chuan</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="Tai Chi Chuan">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

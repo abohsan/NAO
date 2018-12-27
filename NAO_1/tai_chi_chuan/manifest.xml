@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="tai_chi_chuan-ffc7a0">
+ <names>
+  <name lang="en_US">tai_chi_chuan</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="tai_chi_chuan">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

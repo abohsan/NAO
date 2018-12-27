@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="dtwdemo-43f395">
+ <names>
+  <name lang="en_US">DTWdemo</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="DTWdemo">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

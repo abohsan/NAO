@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="naothelittlejoker-799ced">
+ <names>
+  <name lang="en_US">NAO The Little Joker</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="NAO The Little Joker">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

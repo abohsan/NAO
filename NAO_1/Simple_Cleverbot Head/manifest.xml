@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="simple_cleverbothead-1077d9">
+ <names>
+  <name lang="en_US">Simple_Cleverbot Head</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="Simple_Cleverbot Head">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="behaviorselector-d800bb">
+ <names>
+  <name lang="en_US">BehaviorSelector</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="BehaviorSelector">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

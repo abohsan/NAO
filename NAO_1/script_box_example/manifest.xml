@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="script_box_example-b8fde1">
+ <names>
+  <name lang="en_US">script_box_example</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="script_box_example">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

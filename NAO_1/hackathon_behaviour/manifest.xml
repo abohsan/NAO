@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="hackathon_behaviour-033482">
+ <names>
+  <name lang="en_US">hackathon_behaviour</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="hackathon_behaviour">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>
